@@ -1,7 +1,7 @@
 # FROM 指定基础镜像
 FROM nginx:1.8.1
 # ARG 构建参数
-ARG DIST_FILE=docs/.vitepress/dist
+ARG DIST_FILE=dist
 # COPY 复制文件
 COPY ${DIST_FILE} /usr/share/nginx/html
 # ARG 构建参数

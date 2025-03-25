@@ -34,9 +34,15 @@ jobs:
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
 
+      # 新增复制步骤
+      - name: Prepare Docker Context
+        run: |
+          mkdir -p dist
+          cp -r docs/.vitepress/dist/* dist/
+
       # 通过 Dockerfile 构建镜像
       - name: Build Docker Image
-        run: docker build docs/.vitepress/dist --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
+        run: docker build . --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
 
       # 推送镜像到 Docker Hub
       - name: Publish to Docker Repository
@@ -50,7 +56,7 @@ jobs:
       - name: Publish to Aliyun Docker Repository
         run: |
           docker login --username=${{ secrets.ALIYUN_DOCKER_USERNAME }} --password=${{ secrets.ALIYUN_DOCKER_PASSWORD }} registry.cn-hangzhou.aliyuncs.com
-          docker build docs/.vitepress/dist -t ${{ secrets.IMAGE_NAME }} .
+          docker build -t ${{ secrets.IMAGE_NAME }} . 
           docker tag ${{ secrets.IMAGE_NAME }} registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
           docker push registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
 
