@@ -74,5 +74,6 @@ jobs:
           port: ${{ secrets.SERVER_PORT }}
           script: |
             docker pull registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
-            docker-compose up -d --build
+            docker stop agile-tiles-website
+            docker run -it --name agile-tiles-website -p 8787:80 -d registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
 
