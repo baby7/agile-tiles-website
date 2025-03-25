@@ -1,0 +1,69 @@
+# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm i pnpm -g
+      - run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm run docs:build
+
+      - name: Cd
+        run: cd docs/.vitepress/dist
+
+      # 通过 Dockerfile 构建镜像
+      - name: Build Docker Image
+        run: docker build . --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
+
+      # 推送镜像到 Docker Hub
+      - name: Publish to Docker Repository
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: ${{ secrets.IMAGE_NAME }}:latest
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # 推送镜像到阿里云仓库
+      - name: Publish to Aliyun Docker Repository
+        run: |
+          docker login --username=${{ secrets.ALIYUN_DOCKER_USERNAME }} --password=${{ secrets.ALIYUN_DOCKER_PASSWORD }} registry.cn-hangzhou.aliyuncs.com
+          docker build -t ${{ secrets.IMAGE_NAME }} . 
+          docker tag ${{ secrets.IMAGE_NAME }} registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
+          docker push registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
+
+  pull-docker:
+    needs: [build]
+    name: Pull Docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PWD }}
+          port: ${{ secrets.SERVER_PORT }}
+          script: |
+            docker pull registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
+            docker-compose up -d --build
+
