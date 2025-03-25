@@ -45,12 +45,12 @@ jobs:
         run: docker build . --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
 
       # 推送镜像到 Docker Hub
-      - name: Publish to Docker Repository
-        uses: elgohr/Publish-Docker-Github-Action@master
-        with:
-          name: ${{ secrets.IMAGE_NAME }}:latest
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+#      - name: Publish to Docker Repository
+#        uses: elgohr/Publish-Docker-Github-Action@master
+#        with:
+#          name: ${{ secrets.IMAGE_NAME }}:latest
+#          username: ${{ secrets.DOCKER_USERNAME }}
+#          password: ${{ secrets.DOCKER_PASSWORD }}
 
       # 推送镜像到阿里云仓库
       - name: Publish to Aliyun Docker Repository
