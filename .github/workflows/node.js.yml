@@ -27,20 +27,16 @@ jobs:
         with:
           node-version: 18
           cache: npm # 或 pnpm / yarn
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+
       - name: Install dependencies
         run: npm ci # 或 pnpm install / yarn install / bun install
+
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/.vitepress/dist
 
       # 通过 Dockerfile 构建镜像
       - name: Build Docker Image
-        run: docker build . --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
+        run: docker build docs/.vitepress/dist --file Dockerfile --tag ${{ secrets.IMAGE_NAME }}:$(date +%s)
 
       # 推送镜像到 Docker Hub
       - name: Publish to Docker Repository
@@ -54,7 +50,7 @@ jobs:
       - name: Publish to Aliyun Docker Repository
         run: |
           docker login --username=${{ secrets.ALIYUN_DOCKER_USERNAME }} --password=${{ secrets.ALIYUN_DOCKER_PASSWORD }} registry.cn-hangzhou.aliyuncs.com
-          docker build -t ${{ secrets.IMAGE_NAME }} . 
+          docker build docs/.vitepress/dist -t ${{ secrets.IMAGE_NAME }} .
           docker tag ${{ secrets.IMAGE_NAME }} registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
           docker push registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website:latest
 
