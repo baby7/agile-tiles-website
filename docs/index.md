@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: http://localhost:5173/background.png
+      link: /
     - theme: alt
       text: 开发者文档
       link: /api-examples
