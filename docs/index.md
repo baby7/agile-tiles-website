@@ -14,7 +14,7 @@ hero:
       link: /
     - theme: alt
       text: 开发者文档
-      link: /api-examples
+      link: /developer
 
 features:
   - icon: ✨
