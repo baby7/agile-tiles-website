@@ -10,14 +10,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      // { text: '下载页', link: '/download' },
+      { text: '开发者文档', link: '/developer' },
+      { text: '政策协议', link: '/agreement' },
+      { text: '关于我们', link: '/about' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '目录',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          // { text: '下载页', link: '/download' },
+          { text: '开发者文档', link: '/developer' },
+          { text: '政策协议', link: '/agreement' },
+          { text: '关于我们', link: '/about' },
         ]
       }
     ],
@@ -25,5 +31,11 @@ export default defineConfig({
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
+
+    // 页脚
+    footer: {
+      message: "Copyright©2025 ******公司",
+      copyright: "辽ICP备18000129号-3",
+    },
   }
 })
