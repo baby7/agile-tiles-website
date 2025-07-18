@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: /
+      link: /download
     - theme: alt
       text: 开发者文档
       link: /developer
