@@ -6,7 +6,7 @@ outline: deep
 
 ## 下载地址
 
-::: tip
+::: v0.4.4
 [点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.4.exe)
 :::
 
