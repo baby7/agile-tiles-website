@@ -10,7 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      // { text: '下载页', link: '/download' },
+      { text: '下载页', link: '/download' },
       { text: '开发者文档', link: '/developer' },
       { text: '政策协议', link: '/agreement' },
       { text: '关于我们', link: '/about' },
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         text: '目录',
         items: [
-          // { text: '下载页', link: '/download' },
+          { text: '下载页', link: '/download' },
           { text: '开发者文档', link: '/developer' },
           { text: '政策协议', link: '/agreement' },
           { text: '关于我们', link: '/about' },
