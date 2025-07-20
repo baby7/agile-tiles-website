@@ -4,13 +4,17 @@ outline: deep
 
 # 下载
 
-## 下载地址
+## 最新版本：v0.4.6
 
-::: v0.4.5
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.5.exe)
+:::
+[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.6.exe)
 :::
 
 ## 版本更新记录
+
+#### 版本 v0.4.6 - 2025-07-20
+- 适配Win11系统的分屏功能：窗口右上角大小切换按钮或快捷键Win+Z
+- 修复亚克力模式下的窗口移动和缩放卡顿的问题
 
 #### 版本 v0.4.5 - 2025-07-20
 - 卡片商店增加卡片详情界面
