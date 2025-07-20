@@ -6,11 +6,17 @@ outline: deep
 
 ## 下载地址
 
-::: v0.4.4
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.4.exe)
+::: v0.4.5
+[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.5.exe)
 :::
 
 ## 版本更新记录
+
+#### 版本 v0.4.5 - 2025-07-20
+- 卡片商店增加卡片详情界面
+- 部分链接文字和相对重要的按钮增加悬浮时将光标改为手型
+- 修复卡片设计器退出后菜单指示条位置不对的问题
+- 修复检查更新后未即时刷新更新提示红点的问题
 
 #### 版本 v0.4.4 - 2025-07-18
 - 智能对话增加异常结束提示
