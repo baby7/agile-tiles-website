@@ -6,7 +6,7 @@ outline: deep
 
 ## 最新版本：v0.4.6
 
-:::
+::: info
 [点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.6.exe)
 :::
 
