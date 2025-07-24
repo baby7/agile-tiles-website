@@ -4,13 +4,18 @@ outline: deep
 
 # 下载
 
-## 最新版本：v0.4.7
+## 最新版本：v0.4.8
 
 ::: info
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.7.exe)
+[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.8.exe)
 :::
 
 ## 版本更新记录
+
+#### 版本 v0.4.8 - 2025-07-24
+- 修复深色模式下托盘图标菜单文字颜色的问题
+- 修复弹出窗口变成非亚克力背景的问题
+- 修复深色模式下注销再登录切换到浅色模式出现的主题问题
 
 #### 版本 v0.4.7 - 2025-07-23
 - 完善会员各个权益说明
