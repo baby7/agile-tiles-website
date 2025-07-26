@@ -4,13 +4,20 @@ outline: deep
 
 # 下载
 
-## 最新版本：v0.4.8
+## 最新版本：v0.5.0
 
 ::: info
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.4.8.exe)
+[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.0.exe)
 :::
 
 ## 版本更新记录
+
+#### 版本 v0.5.0 - 2025-07-26
+- 菜单新增翻译模块，移除工具模块的翻译页签
+- 对部分工具模块和游戏模块打开的界面的主题进行适配
+- 主题设置功能开放为免费
+- 优化智能对话体验，平滑滚动
+- 对历史上的今天进行调整
 
 #### 版本 v0.4.8 - 2025-07-24
 - 修复深色模式下托盘图标菜单文字颜色的问题
