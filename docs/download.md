@@ -1,171 +1,154 @@
 ---
-outline: deep
+layout: page
+title: 下载
 ---
 
-# 下载
+<div class="download-container">
 
-## 最新版本：v0.5.1
+  <!-- 新增软件名称标题 -->
+  <h1 class="software-title">
+    灵卡面板
+  </h1>
 
-::: info
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.1.exe)
-:::
+  <div class="version-info">
+    <div class="version-tag">最新版本</div>
+    <div class="version-number">V0.5.1</div>
+    <div class="release-date">更新时间: 2025年7月27日</div>
+  </div>
 
-## 版本更新记录
+  <div class="download-card">
+    <div class="os-info">
+      <svg class="os-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M3,12V6.75L9,5.43V11.91L3,12M20,3V11.75L10,11.9V5.21L20,3M3,13L9,13.09V19.9L3,18.75V13M20,13.25V22L10,20.09V13.1L20,13.25Z"/>
+      </svg>
+      <span class="os-name">Windows 10、11</span>
+    </div>
+    <a href="http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.1.exe" class="download-button">
+      下载安装包
+    </a>
+  </div>
 
-#### 版本 v0.5.1 - 2025-07-27
-- 智能对话模块增加智能体选择
-- 对浅色模式下翻译上方的提示条底色进行调整
-- 面板默认位置改在屏幕左侧
-- 修复深色模式启动时死角为方角的问题
+  <div class="changelog-link">
+    <a href="/history">查看完整更新历史 →</a>
+  </div>
 
-#### 版本 v0.5.0 - 2025-07-26
-- 菜单新增翻译模块，移除工具模块的翻译页签
-- 对部分工具模块和游戏模块打开的界面的主题进行适配
-- 主题设置功能开放为免费
-- 优化智能对话体验，平滑滚动
-- 对历史上的今天进行调整
+</div>
 
-#### 版本 v0.4.8 - 2025-07-24
-- 修复深色模式下托盘图标菜单文字颜色的问题
-- 修复弹出窗口变成非亚克力背景的问题
-- 修复深色模式下注销再登录切换到浅色模式出现的主题问题
+<style>
+/* 基础样式 - 同时适配浅色和深色模式 */
+.download-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
 
-#### 版本 v0.4.7 - 2025-07-23
-- 完善会员各个权益说明
-- 音乐卡片没有歌曲时点击播放不修改播放按钮状态
-- 卡片商店的卡片详情适配深色模式
-- 用户->数据界面的[vip]改为图标形式，设置部分功能增加vip标识
-- 修复注册登录后天气和工作日卡片为空的问题
-- 修复弹窗全屏移动时会变蓝色的问题
-- 修复深色背景下检查更新弹出窗口的四个角是白色的问题
-- 修复修改主题设置未生效的问题
+/* 新增软件名称样式 */
+.software-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  text-align: center;
+}
 
-#### 版本 v0.4.6 - 2025-07-20
-- 适配Win11系统的分屏功能：窗口右上角大小切换按钮或快捷键Win+Z
-- 修复亚克力模式下的窗口移动和缩放卡顿的问题
+.version-info {
+  margin-bottom: 2.5rem;
+}
 
-#### 版本 v0.4.5 - 2025-07-20
-- 卡片商店增加卡片详情界面
-- 部分链接文字和相对重要的按钮增加悬浮时将光标改为手型
-- 修复卡片设计器退出后菜单指示条位置不对的问题
-- 修复检查更新后未即时刷新更新提示红点的问题
+.version-tag {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-2);
+}
 
-#### 版本 v0.4.4 - 2025-07-18
-- 智能对话增加异常结束提示
-- 对于第三方窗口的标题右侧增加问号图标，解释是第三方，并提示点击标题可以跳转
-- 同步时要对卡片数据进行下发
-- 同步输入框和日期选择框的主题
-- 部分卡片限制同时只能存在一个
-- 卡片商店的卡片优先展示2*2大小的
-- 文字弹窗窗口的复制按钮增加反馈提示弹窗
-- 修复卡片设计器安装卡片点击确认后再关闭会再弹窗的问题
-- 修复小说首次加载时滚动条未更新的问题
+.version-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-brand);
+}
 
-#### 版本 v0.4.3 - 2025-07-16
-- 信息卡片将文字分类放在图片分类前、删除图片分类的读懂世界和星座运势
-- 同步请求均转换为异步请求
-- 对所有输入界面做体验优化，回车可跳到下一个输入框，最后的输入框触发最终操作
-- 智能对话中不能输入和发送消息、切换模型
-- 智能对话窗口限制只能存在一个
-- 智能对话增加停止按钮
-- 更新处要增加红点提示
-- 卡片商店更新后关闭卡片设计器时进行提示
-- 去掉热搜卡片下面的临时横线
-- 修复强制更新错误的问题
+.release-date {
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
+}
 
-#### 版本 v0.4.2 - 2025-07-15
-- 修复注册时邀请码未生效的问题
-- 修复卡片设计器可能无法添加新卡片的问题
+.download-card {
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: var(--vp-shadow-1);
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
 
-#### 版本 v0.4.1 - 2025-07-15
-- 增加邀请用户功能，邀请成功双方均可获得周卡会员
-- 简化密码规范（英文字母+数字）
-- 优化登录界面输入体验，回车可跳到下一个输入框，最后的输入框触发最终操作(登录注册等)
-- 会员权益重新排序、增加点击展示详情功能
-- 用户头像调整，分别展示通用头像和会员头像
-- 智能对话的头像更换为通用/会员头像，AI头像改为每个AI对应的头像
-- 智能对话的右键菜单适配中文
-- 现在改为必须用管理员权限启动软件
-- 音乐卡片的封面改为圆角
-- 修复用户智能对话次数超限的报错问题
-- 修复卡片设计器卡片互换可能导致的超出边界问题
-- 修复卡片定时刷新未生效的问题
-- 修复退出登录时登录界面和之前不一致的问题，且现在会保存上一个用户的主题到系统
-- 修复登录时退出选取消依然会退出的问题
+.os-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
 
-#### 版本 v0.4.0 - 2025-07-13
-- 智能对话从临时网页模式改为灵卡面板对话框模式
-- 增加会员专属工单功能
+.os-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--vp-c-brand);
+}
 
-#### 版本 v0.3.3 - 2025-07-09
-- 确认卡片设计前增加检测重叠的逻辑
-- 卡片设计器增加最大宽度限制
-- 发验证码前先校验用户是否存在
-- 密码和其他输入框搞对齐
-- 登录的密码框取消实时校验
-- 小说模块把滚动条放到右侧
-- 热搜模块增加滚动条
-- 图片查看增加放大缩小功能
-- 部分快捷键被占用时提示用户
-- 修复小说模块在软件退出后未存储状态的问题
-- 修复卡片置换后可能会重叠的问题
-- 修复卡片设计器增/缩宽度会闪退的问题
-- 修复频繁切换订阅计划出现的错误
-- 修复意见反馈没适配主题的问题
-- 修复部分控件高度问题导致的圆角变为方角问题
-- 修复关于我们界面展示版本错误问题
+.os-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
 
-#### 版本 v0.3.2 - 2025-07-08
-- 新增卡片设计器中卡片互换的功能
-- 密码输入框增加显示/隐藏密码功能
-- 注册时增加协议同意确认弹框
-- 调整续费和开通会员的按钮位置
-- 设置菜单中增加版本信息和关于我们功能
-- 对音乐卡片上方的歌单列表和歌曲列表增加文字展示
-- 智能助手模块图片修改为官方图标
-- 优化卡片设计器和卡片商店的图片加载速度
-- 修复输入密码位数和提示不匹配问题
-- 修复开通会员成功但返回后未显示会员状态的问题
-- 修复重新登录后快捷键未生效的问题
-- 修复界面设置中菜单位置未修改的问题
-- 修复部分界面中输入框未做字数上限的问题
-- 修复音乐导入后未展示的问题
-- 修复弹出框在主窗口贴边后关闭时出现下拉框未关闭的问题
-- 尝试修复偶发的弹出框问题
+.download-button {
+  display: inline-block;
+  background: var(--vp-button-brand-bg);
+  color: var(--vp-button-brand-text);
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 1.1rem;
+  box-shadow: var(--vp-shadow-1);
+  border: 1px solid var(--vp-button-brand-border);
+}
 
-#### 版本 v0.3.1 - 2025-07-03
-- 部分问题修复
+.download-button:hover {
+  background: var(--vp-button-brand-hover-bg);
+  transform: translateY(-2px);
+  box-shadow: var(--vp-shadow-2);
+}
 
-#### 版本 v0.3.0 - 2025-07-03
-- 问题反馈功能
-- 数据存储方式修改
-- 设置页面的更新记录改为检查更新
+.changelog-link a {
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
 
-#### 版本 v0.2.1 - 2025-06-19
-- 支付系统
+.changelog-link a:hover {
+  color: var(--vp-c-brand);
+  text-decoration: underline;
+}
 
-#### 版本 v0.2.0 - 2025-04-14
-- 卡片商店更新，可以在线安装和更新卡片
-- 面板顶部增加导航栏,可以导航官网和收起面板
-- 增加引导页面
-- 软件安装方式调整为安装包安装
-- 增加开机自启动设置
-- 适配所有的弹出框样式
-- 托盘区菜单和菜单样式调整
-- 完善音乐卡片功能
-- 实现从云端恢复数据功能
-- 天气卡片默认城市调整为北京
-- 等待日卡片的适配和完善
-- 喝水卡片的记录窗口进行优化
-- 文字查看窗口增加刷新功能
-- 电子木鱼卡片增加刷新按钮
-- 工具、信息、游戏窗口顶部增加来源链接
-- 部分深色主题适配问题修复
-- 增加浅色(亚力克、半透明)和深色模式的选择
-- 其他优化和问题修复
+/* 深色模式特定调整 */
+.dark .download-card {
+  box-shadow: var(--vp-shadow-2);
+}
 
-#### 版本 v0.1.1 - 2025-03-21
-- 调整卡片加载方式
+.dark .download-button {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
 
-#### 版本 v0.1.0 - 2025-03-21
-- beta版本初版
+/* 新增深色模式软件名称微调 */
+.dark .software-title {
+  color: var(--vp-c-text-dark-1);
+}
+</style>

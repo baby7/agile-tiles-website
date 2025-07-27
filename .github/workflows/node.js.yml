@@ -75,5 +75,5 @@ jobs:
           script: |
             docker pull registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
             docker rm -f agile-tiles-website
-            docker run -it --name agile-tiles-website -p 8787:80 -d registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
+            docker run -it --name agile-tiles-website -p 80:80 -d registry.cn-hangzhou.aliyuncs.com/baby7/agile-tiles-website
 
