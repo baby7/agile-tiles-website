@@ -4,13 +4,19 @@ outline: deep
 
 # 下载
 
-## 最新版本：v0.5.0
+## 最新版本：v0.5.1
 
 ::: info
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.0.exe)
+[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.1.exe)
 :::
 
 ## 版本更新记录
+
+#### 版本 v0.5.1 - 2025-07-27
+- 智能对话模块增加智能体选择
+- 对浅色模式下翻译上方的提示条底色进行调整
+- 面板默认位置改在屏幕左侧
+- 修复深色模式启动时死角为方角的问题
 
 #### 版本 v0.5.0 - 2025-07-26
 - 菜单新增翻译模块，移除工具模块的翻译页签
