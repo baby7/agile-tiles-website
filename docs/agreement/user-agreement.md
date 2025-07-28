@@ -131,5 +131,5 @@ outline: deep
 <p>联系方式：</p>
 <p>运营主体：杭州市拱墅区启杭灵卡软件开发工作室（个体工商户）</p>
 <p>所在地：浙江省杭州市拱墅区</p>
-<p>联系方式：contact@agiletiles.com</p>
+<p>联系方式：<a href="mailto:contact@agiletiles.com"><span>contact@agiletiles.com</span></a></p>
 </article>
