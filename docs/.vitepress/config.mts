@@ -2,7 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/icon.png" }]],
+  head: [
+      ["link", { rel: "icon", href: "/icon.png" }],
+      ['link', {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+      }]
+  ],
   title: "灵卡面板",
   description: "agile-tiles-website",
   themeConfig: {

@@ -437,13 +437,3 @@ title: 价格
         background: rgba(100, 108, 255, 0.2);
     }
 </style>
-
-<script>
-    // 如果VitePress没有自动处理图标，动态加载Font Awesome
-    if (!document.querySelector('link[href*="font-awesome"]')) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
-        document.head.appendChild(link);
-    }
-</script>
