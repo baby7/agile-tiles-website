@@ -6,7 +6,7 @@ outline: deep
 
 ## 邮箱
 
-baby7blog@foxmail.com
+contact@agiletiles.com
 
 ## QQ群
 
