@@ -15,7 +15,7 @@ title: 价格
             <div class="plan-header">
                 <h3 class="plan-name">免费版</h3>
                 <div class="price-tag">￥0</div>
-                <p class="price-description">永久免费，无任何费用</p>
+                <p class="price-description">免费版已包含核心功能哦</p>
             </div>
             <div class="features-list">
                 <div class="feature-item">

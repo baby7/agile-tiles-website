@@ -79,8 +79,8 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: "Copyright©2025 杭州市拱墅区启杭灵卡软件开发工作室",
-      copyright: "辽ICP备18000129号-3",
+      message: `Copyright©2025-${new Date().getFullYear()} 杭州市拱墅区启杭灵卡软件开发工作室`,
+      copyright: `辽ICP备18000129号-3`,
     },
   }
 })

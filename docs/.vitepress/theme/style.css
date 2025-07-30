@@ -182,11 +182,10 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 100px 20px;
+    padding: 20px 20px;
 }
 
 .home-widget {
-    height: 960px;
 }
 
 .ac {

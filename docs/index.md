@@ -4,7 +4,8 @@ layout: home
 
 hero:
   name: "灵卡面板"
-  tagline: 灵动卡片，打造你的专属工具面板
+  text: 打造你的专属工具面板
+  tagline: 海量卡片，自由组合，快捷唤出
   image:
     src: /background.png
     alt: 背景图
@@ -43,14 +44,14 @@ features:
 
 <!------------ 主页卡片滚动 ------------>
 <section class="home-widget">
-    <div class="home-widget-title ac" data-v-e0f7ef84=""><span class="home-title"
+    <div class="home-widget-title ac"><span class="home-title"
             style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
-            scroll-reveal="{ origin: 'top', delay: 65 }" data-v-e0f7ef84="" data-sr-id="21">
-            <h1 data-v-e0f7ef84="">卡片式小组件，好看又好用</h1><em style="background-color:#ffdd12;" class="title-bg"
-                data-v-e0f7ef84=""></em>
+            scroll-reveal="{ origin: 'top', delay: 65 }">
+            <h1>卡片式小组件，好看又好用</h1><em style="background-color:#ffdd12;" class="title-bg"
+               ></em>
         </span>
         <p style="color: rgb(96, 96, 98); visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
-            scroll-reveal="{ origin: 'bottom', delay: 65 }" data-v-e0f7ef84="" data-sr-id="22">
+            scroll-reveal="{ origin: 'bottom', delay: 65 }">
             海量组件，免费使用。多种尺寸任意调节，令你的桌面独具一格
         </p>
     </div>
