@@ -7,7 +7,7 @@ hero:
   text: 打造你的专属工具面板
   tagline: 海量卡片，自由组合，快捷唤出
   image:
-    src: /background.png
+    src: https://index.agiletiles.com/website/images/background/background.png
     alt: 背景图
   actions:
     - theme: brand
@@ -61,84 +61,84 @@ features:
                 style="--duration: 20s; --delay: 0s; --direction: normal; --pauseOnHover: running; --pauseOnClick: running; --pauseAnimation: running; --loops: infinite; --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0); --gradient-length: 200px; --min-width: 100%; --min-height: auto; --orientation: scrollX;">
                 <div class="transparent-overlay" aria-hidden="true"></div>
                 <div class="marquee">
-                    <img src="./public/card/light/CalendarCard_4_2.png">
-                    <img src="./public/card/light/CountdownDayCard_2_2.png">
-                    <img src="./public/card/light/TimeProgressCard_4_2.png">
-                    <img src="./public/card/light/FoodCard_2_2.png">
-                    <img src="./public/card/light/AnswerCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_4_2.png">
-                    <img src="./public/card/light/CountdownDayCard_2_2.png">
-                    <img src="./public/card/light/TimeProgressCard_4_2.png">
-                    <img src="./public/card/light/FoodCard_2_2.png">
-                    <img src="./public/card/light/AnswerCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CountdownDayCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/TimeProgressCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/FoodCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/AnswerCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CountdownDayCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/TimeProgressCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/FoodCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/AnswerCard_2_2.png">
                 </div>
                 <div aria-hidden="true" class="marquee">
-                    <img src="./public/card/light/CalendarCard_4_2.png">
-                    <img src="./public/card/light/CountdownDayCard_2_2.png">
-                    <img src="./public/card/light/TimeProgressCard_4_2.png">
-                    <img src="./public/card/light/FoodCard_2_2.png">
-                    <img src="./public/card/light/AnswerCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_4_2.png">
-                    <img src="./public/card/light/CountdownDayCard_2_2.png">
-                    <img src="./public/card/light/TimeProgressCard_4_2.png">
-                    <img src="./public/card/light/FoodCard_2_2.png">
-                    <img src="./public/card/light/AnswerCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CountdownDayCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/TimeProgressCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/FoodCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/AnswerCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CountdownDayCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/TimeProgressCard_4_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/FoodCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/AnswerCard_2_2.png">
                 </div>
             </div>
             <div class="vue3-marquee horizontal"
                 style="--duration: 20s; --delay: 0s; --direction: reverse; --pauseOnHover: running; --pauseOnClick: running; --pauseAnimation: running; --loops: infinite; --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0); --gradient-length: 200px; --min-width: 100%; --min-height: auto; --orientation: scrollX;">
                 <div class="transparent-overlay" aria-hidden="true"></div>
                 <div class="marquee">
-                    <img src="./public/card/light/WeatherCard_6_2.png">
-                    <img src="./public/card/light/DiscClockCard_2_2.png">
-                    <img src="./public/card/light/LcdTimeCard_2_1.png">
-                    <img src="./public/card/light/PoemCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WeatherCard_6_2.png">
-                    <img src="./public/card/light/DiscClockCard_2_2.png">
-                    <img src="./public/card/light/LcdTimeCard_2_1.png">
-                    <img src="./public/card/light/PoemCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WeatherCard_6_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DiscClockCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/LcdTimeCard_2_1.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/PoemCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WeatherCard_6_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DiscClockCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/LcdTimeCard_2_1.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/PoemCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
                 </div>
                 <div aria-hidden="true" class="marquee">
-                    <img src="./public/card/light/WeatherCard_6_2.png">
-                    <img src="./public/card/light/DiscClockCard_2_2.png">
-                    <img src="./public/card/light/LcdTimeCard_2_1.png">
-                    <img src="./public/card/light/PoemCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WeatherCard_6_2.png">
-                    <img src="./public/card/light/DiscClockCard_2_2.png">
-                    <img src="./public/card/light/LcdTimeCard_2_1.png">
-                    <img src="./public/card/light/PoemCard_2_2.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WeatherCard_6_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DiscClockCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/LcdTimeCard_2_1.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/PoemCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WeatherCard_6_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DiscClockCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/LcdTimeCard_2_1.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/PoemCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
                 </div>
             </div>
             <div class="vue3-marquee horizontal"
                 style="--duration: 20s; --delay: 0s; --direction: normal; --pauseOnHover: running; --pauseOnClick: running; --pauseAnimation: running; --loops: infinite; --gradient-color: rgba(255, 255, 255, 1), rgba(255, 255, 255, 0); --gradient-length: 200px; --min-width: 100%; --min-height: auto; --orientation: scrollX;">
                 <div class="transparent-overlay" aria-hidden="true"></div>
                 <div class="marquee">
-                    <img src="./public/card/light/EnglishWordsCard_3_3.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WoodenFishCard_2_2.png">
-                    <img src="./public/card/light/SayMoneyCard_2_2.png">
-                    <img src="./public/card/light/DrinkingCard_2_2.png">
-                    <img src="./public/card/light/EnglishWordsCard_3_3.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WoodenFishCard_2_2.png">
-                    <img src="./public/card/light/SayMoneyCard_2_2.png">
-                    <img src="./public/card/light/DrinkingCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/EnglishWordsCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WoodenFishCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/SayMoneyCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DrinkingCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/EnglishWordsCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WoodenFishCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/SayMoneyCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DrinkingCard_2_2.png">
                 </div>
                 <div aria-hidden="true" class="marquee">
-                    <img src="./public/card/light/EnglishWordsCard_3_3.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WoodenFishCard_2_2.png">
-                    <img src="./public/card/light/SayMoneyCard_2_2.png">
-                    <img src="./public/card/light/DrinkingCard_2_2.png">
-                    <img src="./public/card/light/EnglishWordsCard_3_3.png">
-                    <img src="./public/card/light/CalendarCard_3_3.png">
-                    <img src="./public/card/light/WoodenFishCard_2_2.png">
-                    <img src="./public/card/light/SayMoneyCard_2_2.png">
-                    <img src="./public/card/light/DrinkingCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/EnglishWordsCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WoodenFishCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/SayMoneyCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DrinkingCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/EnglishWordsCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/CalendarCard_3_3.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/WoodenFishCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/SayMoneyCard_2_2.png">
+                    <img src="https://index.agiletiles.com/website/images/card/light/DrinkingCard_2_2.png">
                 </div>
             </div>
         </div>
@@ -147,17 +147,17 @@ features:
 
 <!------------ 呼出方式 ------------>
 <section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="./public/tutorial_1.png" alt="呼出方式">
+    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_1.png" alt="呼出方式">
 </section>
 
 <!------------ 自由组合 ------------>
 <section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="./public/tutorial_2.png" alt="自由组合">
+    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_2.png" alt="自由组合">
 </section>
 
 <!------------ 多种功能 ------------>
 <section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="./public/tutorial_3.png" alt="多种功能">
+    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_3.png" alt="多种功能">
 </section>
 
 <script setup>
@@ -176,7 +176,7 @@ onMounted(() => {
   updateCardTheme(document.documentElement.classList.contains('dark'));
   const observer = new MutationObserver(() => {
     updateCardTheme(document.documentElement.classList.contains('dark'));
-  })
+  });
   observer.observe(document.documentElement, { attributes: true });
 })
 </script>
