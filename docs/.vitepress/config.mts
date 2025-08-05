@@ -13,7 +13,25 @@ export default defineConfig({
     // 增强社交媒体分享预览
     ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属工具面板' }],
     ['meta', { property: 'og:description', content: '打造你的专属工具面板，海量卡片，自由组合，快捷唤出' }],
-    ['meta', { property: 'og:image', content: '/icon.png' }]
+    ['meta', { property: 'og:image', content: '/icon.png' }],
+    // 百度统计
+    [
+      'script',
+      {},
+      `
+      (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+      `
+    ]
   ],
   title: "灵卡面板",
   description: "打造你的专属工具面板，海量卡片，自由组合，快捷唤出",
