@@ -36,7 +36,7 @@ outline: deep
     - 导出个人数据
     - 清除使用历史
     - 关闭数据收集
-2. 邮件至 contact@agiletiles.com 可：
+2. 邮件至 service@agiletiles.com 可：
     - 请求账户注销
     - 申请数据副本
 

@@ -6,7 +6,7 @@ outline: deep
 
 ## 邮箱
 
-contact@agiletiles.com
+service@agiletiles.com
 
 ## QQ群
 

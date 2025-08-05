@@ -57,4 +57,4 @@ outline: deep
 ## 九、协议修改与通知
 
 1. 我们将在官网（agiletiles.com）公示协议变更，继续开发即视为接受新条款；
-2. 重要通知将通过您注册时提供的邮箱发送，我们的邮箱： contact@agiletiles.com 
+2. 重要通知将通过您注册时提供的邮箱发送，我们的邮箱： service@agiletiles.com 
