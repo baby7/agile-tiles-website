@@ -3,14 +3,24 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-      ["link", { rel: "icon", href: "/icon.png" }],
-      ['link', {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
-      }]
+    ["link", { rel: "icon", href: "/icon.png" }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+    }],
+    // 全局关键词
+    ['meta', { name: 'keywords', content: '灵卡面板,灵卡面板下载,灵卡面板官网,七仔的桌面工具,灵卡面板开发,灵卡面板插件,国产效率软件,效率工具,生产力工具,AI助手,高效工作' }],
+    // 增强社交媒体分享预览
+    ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属工具面板' }],
+    ['meta', { property: 'og:description', content: '打造你的专属工具面板，海量卡片，自由组合，快捷唤出' }],
+    ['meta', { property: 'og:image', content: '/icon.png' }]
   ],
   title: "灵卡面板",
-  description: "agile-tiles-website",
+  description: "打造你的专属工具面板，海量卡片，自由组合，快捷唤出",
+  // sitemap
+  sitemap: {
+    hostname: 'https://www.agiletiles.com'  // 替换为您的实际域名
+  },
   themeConfig: {
     logo: "icon.png", // 配置logo位置，public目录
     // https://vitepress.dev/reference/default-theme-config
@@ -82,10 +92,5 @@ export default defineConfig({
       message: `Copyright©2025-${new Date().getFullYear()} 杭州市拱墅区启杭灵卡软件开发工作室`,
       copyright: `<a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">浙ICP备2025189575号</a>`,
     },
-
-    //  sitemap
-    sitemap: {
-      hostname: 'https://www.agiletiles.com'  // 替换为您的实际域名
-    }
   }
 })
