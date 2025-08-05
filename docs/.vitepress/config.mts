@@ -80,7 +80,12 @@ export default defineConfig({
     // 页脚
     footer: {
       message: `Copyright©2025-${new Date().getFullYear()} 杭州市拱墅区启杭灵卡软件开发工作室`,
-      copyright: `辽ICP备18000129号-3`,
+      copyright: `<a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">浙ICP备2025189575号</a>`,
     },
+
+    //  sitemap
+    sitemap: {
+      hostname: 'https://www.agiletiles.com'  // 替换为您的实际域名
+    }
   }
 })

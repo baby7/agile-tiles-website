@@ -1,0 +1,3 @@
+Disallow:https://agiletiles.com/sitemap.xml
+User-agent: *
+Disallow:
