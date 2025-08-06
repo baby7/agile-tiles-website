@@ -48,7 +48,7 @@ title: 价格
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
-                    <span>AI智能对话每日3次</span>
+                    <span>AI智能对话每日5次</span>
                 </div>
             </div>
         </div>
