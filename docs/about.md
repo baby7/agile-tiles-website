@@ -10,8 +10,19 @@ service@agiletiles.com
 
 ## QQ群
 
-①群: 956584263 (群成员满员时会不定期清理不活跃用户哦~)
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=M9j1KLtwlPmZ_R4Nctvd29fueZkYgakp&jump_from=webapi&authKey=Od/NpGyzbCMiYKw6n+f69Hz2dWdnsadno0zaHEsj9vfSmgXZHHBxlrTRLJzKms78"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="灵卡面板①群" title="灵卡面板①群"></a>
+①群: 725814322 (群成员满员时会不定期清理不活跃用户哦~)
+<a href="https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&amp;jump_from=webapi&amp;authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m" target="_blank"><div border="0" alt="灵卡面板官方①群"
+style="display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: 88px;
+height: 32px;
+border-radius: 3px;
+background: linear-gradient(318deg, #006cff 0%, #00d3ff 100%);
+font-size: 14px;
+font-weight: 400;
+color: #fff;" title="灵卡面板官方①群">加入①群</div></a>
 
 ## 意见反馈
 
