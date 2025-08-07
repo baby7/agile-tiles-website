@@ -93,12 +93,6 @@ export default defineConfig({
           { text: '更新历史', link: '/history' },
         ]
       },
-      "/about": {
-        text: '关于我们',
-        items: [
-          { text: '关于我们', link: '/about' },
-        ]
-      },
     },
 
     // socialLinks: [
