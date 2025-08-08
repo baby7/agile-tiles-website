@@ -28,7 +28,15 @@ title: 关于
 
   <div class="about-info">
     <div class="about-number">QQ群</div>
-    <div class="about-release-date">①群: 725814322 (群成员满员时会不定期清理不活跃用户哦~)</div>
+    <div class="about-release-date">
+      <span>
+        ①群:
+      </span>
+      <a  href="https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&amp;jump_from=webapi&amp;authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m" target="_blank" rel="noreferrer">725814322</a>
+      <span>
+        (群成员满员时会不定期清理不活跃用户哦~)
+      </span>
+    </div>
   </div>
 
 <div class="about-card">
