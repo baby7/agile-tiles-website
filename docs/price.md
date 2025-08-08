@@ -91,12 +91,12 @@ title: 价格
                 </div>
                 <div class="feature-item premium-feature">
                     <i class="fas fa-star"></i>
-                    <span>多语种翻译每日1000次</span>
+                    <span>多语种翻译畅享使用</span>
                     <span class="feature-tag">会员专享</span>
                 </div>
                 <div class="feature-item premium-feature">
                     <i class="fas fa-star"></i>
-                    <span>AI智能对话每日1000次</span>
+                    <span>AI智能对话畅享使用</span>
                     <span class="feature-tag">会员专享</span>
                 </div>
                 <div class="feature-item premium-feature">
@@ -135,7 +135,7 @@ title: 价格
             </div>
             <div class="note-item">
                 <i class="fas fa-info-circle"></i>
-                <span>会员的翻译和对话限制是为了避免被批量调用，正常使用完全足够</span>
+                <span>会员的翻译和对话限制到每日1000次，该限制仅是为了避免被恶意批量调用，正常使用完全足够</span>
             </div>
             <div class="note-item">
                 <i class="fas fa-info-circle"></i>
