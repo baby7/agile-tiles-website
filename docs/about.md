@@ -34,7 +34,7 @@ title: 关于
       </span>
       <a  href="https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&amp;jump_from=webapi&amp;authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m" target="_blank" rel="noreferrer">725814322</a>
       <span>
-        (群成员满员时会不定期清理不活跃用户哦~)
+        (点击左边群号或扫描下方二维码加群，群成员满员时会不定期清理不活跃用户哦~)
       </span>
     </div>
   </div>
