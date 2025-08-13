@@ -10,16 +10,6 @@ title: 关于
   </h1>
 
   <div class="about-info">
-    <div class="about-number">意见反馈</div>
-    <div class="about-release-date">可以打开软件后在 设置 -> 意见反馈 处提交反馈哦~</div>
-  </div>
-
-  <div class="about-info">
-    <div class="about-number">会员工单</div>
-    <div class="about-release-date">可以打开软件后在 设置 -> 会员工单 处提交工单，我们会尽快处理哦~</div>
-  </div>
-
-  <div class="about-info">
     <div class="about-number">邮箱</div>
     <div class="about-release-date">
       <a href="mailto:service@agiletiles.com" target="_blank" rel="noreferrer">service@agiletiles.com</a>
@@ -39,12 +29,22 @@ title: 关于
     </div>
   </div>
 
-<div class="about-card">
+  <div class="about-card">
     <div class="about-title-info">
       <span class="about-title-name">灵卡面板官方①群</span>
     </div>
     <img style="width: 15rem; height: 15rem " src="https://index.agiletiles.com/website/images/qr_code/725814322.png"></img>
-</div>
+  </div>
+
+  <div class="about-info">
+    <div class="about-number">意见反馈</div>
+    <div class="about-release-date">可以打开软件后在 设置 -> 意见反馈 处提交反馈哦~</div>
+  </div>
+
+  <div class="about-info">
+    <div class="about-number">会员工单</div>
+    <div class="about-release-date">可以打开软件后在 设置 -> 会员工单 处提交工单，我们会尽快处理哦~</div>
+  </div>
 
 </div>
 
