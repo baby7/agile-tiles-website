@@ -6,7 +6,7 @@ export default defineConfig({
     ["link", { rel: "icon", href: "/icon.png" }],
     ['link', {
       rel: 'stylesheet',
-      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+      href: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css'
     }],
     // 全局关键词
     ['meta', { name: 'keywords', content: '灵卡面板,灵卡面板下载,灵卡面板官网,七仔的桌面工具,灵卡面板开发,灵卡面板插件,国产效率软件,效率工具,生产力工具,AI助手,高效工作' }],
