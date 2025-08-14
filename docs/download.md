@@ -12,7 +12,7 @@ title: 下载
 
   <div class="version-info">
     <div class="version-tag">最新版本</div>
-    <div class="version-number">V1.1.1</div>
+    <div class="version-number">V1.1.2</div>
     <div class="release-date">更新时间: 2025年8月14日</div>
   </div>
 
@@ -23,7 +23,7 @@ title: 下载
       </svg>
       <span class="os-name">Windows 10、11</span>
     </div>
-    <a href="https://server.agiletiles.com/update/setup/AgileTilesSetupV1.1.1.exe" class="download-button">
+    <a href="https://server.agiletiles.com/update/setup/AgileTilesSetupV1.1.2.exe" class="download-button">
       下载安装包
     </a>
   </div>
