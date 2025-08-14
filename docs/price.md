@@ -44,6 +44,10 @@ title: 价格
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
+                    <span>快捷键截图OCR翻译每日10次</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
                     <span>多语种翻译每日10次</span>
                 </div>
                 <div class="feature-item">
@@ -88,6 +92,11 @@ title: 价格
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
                     <span>导入音乐随心听</span>
+                </div>
+                <div class="feature-item premium-feature">
+                    <i class="fas fa-star"></i>
+                    <span>快捷键截图OCR翻译畅享使用</span>
+                    <span class="feature-tag">会员专享</span>
                 </div>
                 <div class="feature-item premium-feature">
                     <i class="fas fa-star"></i>
@@ -136,6 +145,10 @@ title: 价格
             <div class="note-item">
                 <i class="fas fa-info-circle"></i>
                 <span>会员的翻译和对话限制到每日1000次，该限制仅是为了避免被恶意批量调用，正常使用完全足够</span>
+            </div>
+            <div class="note-item">
+                <i class="fas fa-info-circle"></i>
+                <span>快捷键截图OCR翻译和多语种翻译功能共享次数，这是因为截图OCR后进行的翻译使用的是多语种翻译功能的次数</span>
             </div>
             <div class="note-item">
                 <i class="fas fa-info-circle"></i>
