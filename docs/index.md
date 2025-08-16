@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 价格详情
       link: /price
+    - theme: alt
+      text: 加入QQ交流群
+      link: https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&jump_from=webapi&authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m
 
 features:
   - icon: 📚
