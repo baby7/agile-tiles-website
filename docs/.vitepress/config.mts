@@ -14,6 +14,20 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属工具面板' }],
     ['meta', { property: 'og:description', content: '打造你的专属工具面板，海量卡片，自由组合，快捷唤出' }],
     ['meta', { property: 'og:image', content: '/icon.png' }],
+    // 51.LA 统计脚本
+    ['script', {
+      charset: 'UTF-8',
+      id: 'LA_COLLECT',
+      src: 'https://index.agiletiles.com/website/js/51.la/js-sdk-pro.min.js'
+    }],
+    ['script', {}, `
+      LA.init({
+        id: "3N9p2IRHN8YAVUn0",
+        ck: "3N9p2IRHN8YAVUn0",
+        autoTrack: true,
+        prefix: '%2F%2Findex.agiletiles.com%2Fwebsite%2Fjs%2F51.la'
+      })
+    `],
     // 百度统计
     [
       'script',
