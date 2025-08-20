@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "灵卡面板"
-  text: 打造你的专属工具面板
-  tagline: 海量卡片，自由组合，快捷唤出
+  text: 打造你的专属摸鱼面板
+  tagline: 海量卡片，自由组合，快捷唤出，轻松摸鱼办公
   image:
     src: https://index.agiletiles.com/website/images/background/background.png
     alt: 背景图

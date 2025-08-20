@@ -9,10 +9,10 @@ export default defineConfig({
       href: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css'
     }],
     // 全局关键词
-    ['meta', { name: 'keywords', content: '灵卡面板,灵卡面板下载,灵卡面板官网,七仔的桌面工具,灵卡面板开发,灵卡面板插件,国产效率软件,效率工具,生产力工具,AI助手,高效工作' }],
+    ['meta', { name: 'keywords', content: '灵卡面板,摸鱼,办公,灵卡面板下载,灵卡面板官网,七仔的桌面工具,灵卡面板开发,灵卡面板插件,国产效率软件,效率工具,生产力工具,AI助手,高效工作' }],
     // 增强社交媒体分享预览
-    ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属工具面板' }],
-    ['meta', { property: 'og:description', content: '打造你的专属工具面板，海量卡片，自由组合，快捷唤出' }],
+    ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属摸鱼面板' }],
+    ['meta', { property: 'og:description', content: '打造你的专属摸鱼面板，海量卡片，自由组合，快捷唤出' }],
     ['meta', { property: 'og:image', content: '/icon.png' }],
     // 51.LA 统计脚本
     ['script', {
@@ -47,8 +47,8 @@ export default defineConfig({
       `
     ]
   ],
-  title: "灵卡面板",
-  description: "打造你的专属工具面板，海量卡片，自由组合，快捷唤出",
+  title: "灵卡面板 - 打造你的专属摸鱼面板",
+  description: "打造你的专属摸鱼面板，海量卡片，自由组合，快捷唤出",
   // sitemap
   sitemap: {
     hostname: 'https://www.agiletiles.com'  // 替换为您的实际域名
