@@ -17,6 +17,17 @@ title: 关于
   </div>
 
   <div class="about-info">
+    <div class="about-number">公众号</div>
+  </div>
+
+  <div class="about-card">
+    <div class="about-title-info">
+      <span class="about-title-name">灵卡面板官方公众号</span>
+    </div>
+    <img style="width: 11rem; height: 11rem " src="https://index.agiletiles.com/website/images/qr_code/AgileTilesMPQR.jpg"></img>
+  </div>
+
+  <div class="about-info">
     <div class="about-number">QQ群</div>
     <div class="about-release-date">
       <span>
@@ -33,7 +44,7 @@ title: 关于
     <div class="about-title-info">
       <span class="about-title-name">灵卡面板官方①群</span>
     </div>
-    <img style="width: 15rem; height: 15rem " src="https://index.agiletiles.com/website/images/qr_code/725814322.png"></img>
+    <img style="width: 11rem; height: 11rem " src="https://index.agiletiles.com/website/images/qr_code/725814322.png"></img>
   </div>
 
   <div class="about-info">
@@ -99,12 +110,12 @@ title: 关于
 .about-card {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1rem;
   border: 1px solid var(--vp-c-divider);
   box-shadow: var(--vp-shadow-1);
   margin-bottom: 2rem;
   transition: all 0.3s ease;
-  max-width: 20rem;
+  max-width: 14rem;
 }
 
 .about-title-info {
