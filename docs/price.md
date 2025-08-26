@@ -28,6 +28,10 @@ title: 价格
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
+                    <span>本地文件快捷搜索</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
                     <span>天气信息实时更新</span>
                 </div>
                 <div class="feature-item">
@@ -76,6 +80,10 @@ title: 价格
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
                     <span>卡片随意排列</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>本地文件快捷搜索</span>
                 </div>
                 <div class="feature-item">
                     <i class="fas fa-check-circle"></i>
