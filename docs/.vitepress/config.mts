@@ -14,6 +14,14 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: '灵卡面板 - 打造你的专属摸鱼面板' }],
     ['meta', { property: 'og:description', content: '打造你的专属摸鱼面板，海量卡片，自由组合，快捷唤出' }],
     ['meta', { property: 'og:image', content: '/icon.png' }],
+    // Plyr视频播放器
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdn.plyr.io/3.7.8/plyr.css'
+    }],
+    ['script', {
+      src: 'https://cdn.plyr.io/3.7.8/plyr.js'
+    }],
     // 51.LA 统计脚本
     ['script', {
       charset: 'UTF-8',

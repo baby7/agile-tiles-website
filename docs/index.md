@@ -26,7 +26,7 @@ features:
     details: 支持快捷键截图OCR识别并翻译，支持百度和有道两款翻译模块，多语种快速翻译，是您的好助手好搭档
   - icon: ✨
     title: AI对话
-    details: 支持Deepseek、通义千问、文心一言、豆包、讯飞星火、混元厂商的多种大模型，还扩展了多种有趣的智能体供您体验
+    details: 支持Deepseek、阿里、百度、豆包等的多种大模型，还扩展了多种有趣的智能体供您体验
   - icon: 🧩
     title: 海量卡片
     details: 各种尺寸，自由组合，组合出独属于你的灵卡面板。卡片持续添加中...
@@ -47,7 +47,18 @@ features:
     details: 开发者可依照开发文档设计卡片并提交(此项功能快速完善中)
 ---
 
-
+<!-- 在你的 index.md 文件中 -->
+<div class="plyr-video" style="margin-top: 15px;">
+  <video
+    id="player"
+    playsinline
+    controls
+    data-poster="https://index.agiletiles.com/website/video/agiletiles-promotional-video-1080p.jpg"
+    class="plyr-video"
+  >
+    <source src="https://index.agiletiles.com/website/video/agiletiles-promotional-video-1080p.mp4" type="video/mp4" />
+  </video>
+</div>
 <!------------ 主页卡片滚动 ------------>
 <section class="home-widget">
     <div class="home-widget-title ac"><span class="home-title"
