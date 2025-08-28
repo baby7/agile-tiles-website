@@ -67,7 +67,6 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' },
-      { text: '价格', link: '/price' },
       // { text: '开发者文档', link: '/developer' },
       // {
       //   text: '教程/帮助',
@@ -84,6 +83,7 @@ export default defineConfig({
           { text: '开发者协议', link: '/agreement/developer-agreement' },
         ]
       },
+      { text: '方案', link: '/price' },
       { text: '关于我们', link: '/about' },
     ],
 
