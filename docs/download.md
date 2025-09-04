@@ -23,7 +23,7 @@ title: 下载
       </svg>
       <span class="os-name">Windows 10、11</span>
     </div>
-    <a href="https://www.agiletiles.com/downloads/update/setup/AgileTilesSetupV1.3.2.exe" class="download-button">
+    <a href="https://server.agiletiles.com/update/setup/AgileTilesSetupV1.3.2.exe" class="download-button">
       下载安装包
     </a>
   </div>
