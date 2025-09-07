@@ -296,7 +296,7 @@ title: 价格
 
     .price-option {
         background: rgba(100, 108, 255, 0.1);
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.7rem;
         border-radius: 8px;
         font-weight: 600;
         color: var(--vp-c-brand);
