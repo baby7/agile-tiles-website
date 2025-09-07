@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: /download
+      link: https://wwta.lanzoue.com/s/agiletiles
     - theme: alt
       text: 加入QQ交流群
       link: https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&jump_from=webapi&authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m
