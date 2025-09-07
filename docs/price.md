@@ -66,7 +66,7 @@ title: 价格
             <div class="plan-header">
                 <h3 class="plan-name">会员版</h3>
                 <div class="price-options">
-                    <div class="price-option">月卡 ￥10</div>
+                    <div class="price-option">月卡折后 ￥10</div>
                     <div class="price-option">季卡折后 ￥27</div>
                     <div class="price-option">年卡折后 ￥96</div>
                 </div>
