@@ -23,7 +23,7 @@ title: 下载
       </svg>
       <span class="os-name">Windows 10、11</span>
     </div>
-    <a href="https://agiletiles.lanzoue.com/iIYJ535mn0uj" class="download-button">
+    <a href="https://agiletiles.lanzoue.com/iAfSD35zrsgf" class="download-button">
       进入下载页面
     </a>
   </div>
