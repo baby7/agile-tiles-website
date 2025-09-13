@@ -18,26 +18,32 @@ hero:
       link: https://qm.qq.com/cgi-bin/qm/qr?k=VK59itvpdf8BYA_cOXbLwLWNz9XqUuww&jump_from=webapi&authKey=86SEXINZcwHSIdaoXlSJJdQx5wvnoG+rJPMfXUSjL9ojBejru2M3IHNdS/Svn91m
 
 features:
-  - icon: 📚
-    title: 翻译
-    details: 支持快捷键截图OCR识别并翻译，支持百度和有道两款翻译模块，多语种快速翻译，是您的好助手好搭档
-  - icon: ✨
-    title: AI对话
-    details: 支持Deepseek、阿里、百度、豆包等的多种大模型，还扩展了多种有趣的智能体供您体验
+  - icon: 🚀
+    title: 快捷唤出
+    details: 不管是快捷键还是鼠标，均可快速呼出灵卡面板。结束使用后，鼠标移出灵卡面板即可自动隐藏
   - icon: 🧩
     title: 海量卡片
     details: 各种尺寸，自由组合，组合出独属于你的灵卡面板。卡片持续添加中...
-  - icon: 🚀
-    title: 效率
-    details: 不管是快捷键还是鼠标，均可快速呼出灵卡面板。结束使用后，鼠标移出灵卡面板即可自动隐藏
-  - icon: 🐟
-    title: 摸鱼
-    details: 内置小说阅读器、音乐播放器，还有各种有趣卡片、游戏和实时信息，让您时时刻刻轻松摸鱼
+  - icon: 📚
+    title: 多语种翻译
+    details: 支持快捷键截图OCR识别并翻译，支持百度和有道两款翻译模块，多语种快速翻译，是您的好助手好搭档
   - icon: 📝
-    title: 记录
-    details: 可以使用待办事项分类记录你的各项任务，可以设置特定时间通知你
+    title: 待办事项
+    details: 自定义待办事项分类，四象限法管理待办事项，设置特定时间进行通知
+  - icon: 🔍
+    title: 本地文件搜索
+    details: 集成了Everything，快捷键唤出，输入关键词搜索，快速找到所需文件
+  - icon: 💻
+    title: 局域网文件传输
+    details: 点击启动局域网文件传输服务器，局域网内设备均可上传和下载文件
+  - icon: ✨
+    title: AI对话
+    details: 支持Deepseek、阿里、百度、豆包等的多种大模型，还扩展了多种有趣的智能体供您体验
+  - icon: 🐟
+    title: 闲时摸鱼
+    details: 内置小说阅读器、音乐播放器，还有各种有趣卡片、游戏和实时信息，让您时时刻刻轻松摸鱼
   - icon: 🛠
-    title: 工具
+    title: 实用工具
     details: 包含编程、音乐、学习、运动、影视等各个领域的卡片和工具
   - icon: 🧑‍💻
     title: 可拓展
