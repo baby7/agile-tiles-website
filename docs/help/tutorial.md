@@ -7,7 +7,7 @@ outline: deep
 ## 最新版本：v0.5.1
 
 ::: info
-[点击下载](http://agile-tiles.baby7blog.com/update/setup/AgileTilesSetupV0.5.1.exe)
+[点击跳转下载页面](https://www.agiletiles.com/download.html)
 :::
 
 ## 版本更新记录
