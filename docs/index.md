@@ -50,25 +50,12 @@ features:
     details: 开发者可依照开发文档设计卡片并提交(此项功能快速完善中)
 ---
 
-<!-- 在你的 index.md 文件中 -->
-<div class="plyr-video" style="margin-top: 15px;">
-  <video
-    id="player"
-    playsinline
-    controls
-    data-poster="https://index.agiletiles.com/website/video/agiletiles-promotional-video-1080p.jpg"
-    class="plyr-video"
-  >
-    <source src="https://index.agiletiles.com/website/video/agiletiles-promotional-video-1080p.mp4" type="video/mp4" />
-  </video>
-</div>
 <!------------ 主页卡片滚动 ------------>
 <section class="home-widget">
     <div class="home-widget-title ac"><span class="home-title"
             style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
             scroll-reveal="{ origin: 'top', delay: 65 }">
-            <h1>卡片式小组件，好看又好用</h1><em style="background-color:#ffdd12;" class="title-bg"
-               ></em>
+            <h1>卡片式小组件，好看又好用</h1><em style="background-color:#ffdd12;" class="title-bg"></em>
         </span>
         <p style="color: rgb(96, 96, 98); visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
             scroll-reveal="{ origin: 'bottom', delay: 65 }">
@@ -165,20 +152,63 @@ features:
     </div>
 </section>
 
-<!------------ 呼出方式 ------------>
-<section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_1.png" alt="呼出方式">
+<!------------  ------------>
+<section class="home-widget" style="margin-top: 50px; padding: 0;">
+    <div class="home-widget-title ac"><span class="home-title"
+            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
+            scroll-reveal="{ origin: 'top', delay: 65 }">
+            <h1>双主题切换，多功能工具</h1><em style="background-color:#ffdd12;" class="title-bg"></em>
+        </span>
+        <p style="color: rgb(96, 96, 98); visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.065s;"
+            scroll-reveal="{ origin: 'bottom', delay: 65 }">
+            两种主题一键便捷切换，多种功能方便快捷实用，大小卡片随意调整
+        </p>
+    </div>
+    <div id="menu" style="width:45%; float:left;">
+        <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/screenshot/screenshot-music-light.png" alt="亮色主题">
+        <br>
+        <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/screenshot/screenshot-music-theme.png" alt="双主题">
+    </div>
+    <div id="content" style="width:50%; float:right;">
+        <h3 id="主卡片">主卡片</h3>
+        <ul>
+        <li class=" ">本地文件快捷搜索（基于everything）</li>
+        <li class=" ">快捷键截图、屏幕取色</li>
+        <li class=" ">翻译（同时接入截图识别并翻译）</li>
+        <li class=" ">AI对话（多种智能体）</li>
+        <li class=" ">TODO（待办事项）功能</li>
+        <li class=" ">各大平台实时热搜</li>
+        <li class=" ">音乐播放器、小说阅读器</li>
+        <li class=" ">有趣图文（摸鱼人日历、kfc梗图文案、萌宠图片、历史上的今天、随机心语）</li>
+        <li class=" ">热门网站链接聚合</li>
+        </ul>
+        <h3 id="小卡片">小卡片</h3>
+        <ul>
+        <li class=" ">Epic Steam 喜加一资讯</li>
+        <li class=" ">Bilibili粉丝量</li>
+        <li class=" ">自定义快捷方式（网址、exe文件、文件夹或普通文件）</li>
+        <li class=" ">LCD时钟、日历、天气预报</li>
+        <li class=" ">喝水记录、今天吃什么、电子木鱼</li>
+        <li class=" ">倒数日、圆盘时钟、英语单词</li>
+        <li class=" ">自定义图片、工作日、电脑监控</li>
+        <li class=" ">灵感提示词、时间进度条、搜索</li>
+        <li class=" ">古诗词、答案之书、一言</li>
+        </ul>
+        <h3 id="工具箱模块">工具箱模块</h3>
+        <ul>
+        <li class=" ">文件批量操作工具、屏幕取色工具</li>
+        <li class=" ">Json格式化工具、编解码工具、颜色转换器</li>
+        <li class=" ">时间 时区 时间戳的计算器</li>
+        <li class=" ">图片批量转表格工具</li>
+        <li class=" ">视频进度条生成器、笔记本电池健康曲线</li>
+        <li class=" ">这班值不值得上、记仇生成器</li>
+        <li class=" ">中国房贷计算器、中国家庭称谓计算器</li>
+        <li class=" ">BMI计算器</li>
+        </ul>
+        <br>
+    </div>
 </section>
-
-<!------------ 自由组合 ------------>
-<section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_2.png" alt="自由组合">
-</section>
-
-<!------------ 多种功能 ------------>
-<section class="home-widget" style="margin-top: 50px; padding: 0; background: rgb(125 125 125 / 25%); border: 1px solid #d7dae2; border-radius: 20px; box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);">
-    <img class="VPImage image-src" src="https://index.agiletiles.com/website/images/tutorial/tutorial_3.png" alt="多种功能">
-</section>
+<br>
 
 <script setup>
 import { onMounted } from 'vue';
