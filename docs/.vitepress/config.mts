@@ -68,13 +68,13 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' },
       // { text: '开发者文档', link: '/developer' },
-      // {
-      //   text: '教程/帮助',
-      //   items: [
-      //     { text: '教程', link: '/help/tutorial' },
-      //     { text: '帮助', link: '/help/help' },
-      //   ]
-      // },
+      {
+        text: '教程/帮助',
+        items: [
+          { text: '帮助', link: '/help/help' },
+          { text: '教程', link: '/help/tutorial' },
+        ]
+      },
       {
         text: '协议相关',
         items: [
