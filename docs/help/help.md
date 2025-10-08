@@ -19,3 +19,15 @@ outline: deep
 我们可以在 【设置】➡️【界面设置】，取消勾选【是否启动侧边弹出功能】。
 
 <img src="https://index.agiletiles.com/website/images/help/disable-the-mouse.png" alt="禁用鼠标" style="display: block; margin: 0 auto; width: 50%;" />
+
+## 三、本地搜索未生效的问题
+
+灵卡面板会默认启动everything搜索，由于权限问题，可能导致无法搜索。这里有两种方法解决：
+
+1. 【推荐】下载安装everything，然后配置开机自启动，你可以点击[这里](https://www.voidtools.com/zh-cn/downloads/)下载everything。
+
+2. 在右下角托盘区双击everything图片，然后在弹窗中勾选【Run as administrator】(使用管理员权限启动)然后点击【ok】(确定)。
+
+<img src="https://index.agiletiles.com/website/images/help/everything_pallet_area.png" alt="托盘区打开everything" style="display: block; margin: 0 auto; width: 30%;" />
+
+<img src="https://index.agiletiles.com/website/images/help/everything_start_setting.png" alt="管理员权限启动everything" style="display: block; margin: 0 auto; width: 30%;" />
