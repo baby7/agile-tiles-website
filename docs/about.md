@@ -57,6 +57,13 @@ title: 关于
     <div class="about-release-date">可以打开软件后在 设置 -> 会员工单 处提交工单，我们会尽快处理哦~</div>
   </div>
 
+  <div class="about-info">
+    <div class="about-number">代码贡献</div>
+    <div class="about-release-date">
+      <a href="https://github.com/baby7/agile-tiles" target="_blank" rel="noreferrer">https://github.com/baby7/agile-tiles</a>
+    </div>
+  </div>
+
 </div>
 
 <style>
