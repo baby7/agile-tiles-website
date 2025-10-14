@@ -184,6 +184,9 @@ features:
         </ul>
         <h3 id="小卡片">小卡片</h3>
         <ul>
+        <li class=" ">台风、系统加速球、翻页时钟</li>
+        <li class=" ">月相、笔记本电池电量</li>
+        <li class=" ">基金、股票、金价</li>
         <li class=" ">Epic Steam 喜加一资讯</li>
         <li class=" ">Bilibili粉丝量</li>
         <li class=" ">自定义快捷方式（网址、exe文件、文件夹或普通文件）</li>
