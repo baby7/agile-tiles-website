@@ -118,7 +118,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/baby7/agile-tiles' },
       {
         icon: {
           svg: '<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1477" width="36" height="36" style="width: 36px; height: 36px; fill: #00a1d6; filter: drop-shadow(0 0 4px color-mix(in oklab, #00a1d6, transparent 40%));">' +
