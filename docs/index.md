@@ -7,7 +7,7 @@ hero:
   text: 打造你的专属摸鱼面板
   tagline: 海量卡片，自由组合，快捷唤出，轻松摸鱼办公
   image:
-    src: https://index.agiletiles.com/website/images/background/background.png
+    src: https://index.agiletiles.com/website/images/background/background_3.png
     alt: 背景图
   actions:
     - theme: brand
