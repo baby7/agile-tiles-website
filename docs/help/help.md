@@ -20,13 +20,23 @@ outline: deep
 
 <img src="https://index.agiletiles.com/website/images/help/disable-the-mouse.png" alt="禁用鼠标" style="display: block; margin: 0 auto; width: 50%;" />
 
-## 三、本地搜索未生效的问题
+## 三、软件弹出太快了
 
-灵卡面板会默认启动everything搜索，由于权限问题，可能导致无法搜索。这里有两种方法解决：
+默认情况下，侧边弹出时间为200毫秒，如果觉得这个时间太短，我们可以在 【设置】➡️【界面设置】，增加【侧边弹出延迟时间】。
 
-1. 【推荐】下载安装everything，然后配置开机自启动，你可以点击[这里](https://www.voidtools.com/zh-cn/downloads/)下载everything。
+<img src="https://index.agiletiles.com/website/images/help/in-delay-time.png" alt="弹出延迟时间" style="display: block; margin: 0 auto; width: 50%;" />
 
-2. 在右下角托盘区双击everything图片，然后在弹窗中勾选【Run as administrator】(使用管理员权限启动)然后点击【ok】(确定)。
+## 四、本地文件搜索未生效的问题
+
+灵卡面板会默认启动everything搜索，由于管理员权限问题，可能导致无法搜索。这里有两种方法解决：
+
+#### 方法一【推荐】：
+
+下载安装everything，然后配置开机自启动，你可以点击[这里](https://www.voidtools.com/zh-cn/downloads/)下载everything。
+
+#### 方法二：
+
+在右下角托盘区双击everything图片，然后在弹窗中勾选【Run as administrator】(使用管理员权限启动)然后点击【ok】(确定)。
 
 <img src="https://index.agiletiles.com/website/images/help/everything_pallet_area.png" alt="托盘区打开everything" style="display: block; margin: 0 auto; width: 30%;" />
 
