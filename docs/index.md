@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: https://agiletiles.lanzoue.com/i9YpR394sc2j
+      link: https://agiletiles.lanzoue.com/iYfbH39glifi
     - theme: alt
       text: Github
       link: https://github.com/baby7/agile-tiles
