@@ -12,8 +12,8 @@ title: 下载
 
   <div class="version-info">
     <div class="version-tag">最新版本</div>
-    <div class="version-number">V1.8.4</div>
-    <div class="release-date">更新时间: 2025年10月27日</div>
+    <div class="version-number">V1.8.3</div>
+    <div class="release-date">更新时间: 2025年10月23日</div>
   </div>
 
   <div class="download-card">
@@ -23,7 +23,7 @@ title: 下载
       </svg>
       <span class="os-name">Windows 10、11</span>
     </div>
-    <a href="https://agiletiles.lanzoue.com/ikyZ439gbkch" class="download-button">
+    <a href="https://agiletiles.lanzoue.com/i9YpR394sc2j" class="download-button">
       进入下载页面
     </a>
   </div>
